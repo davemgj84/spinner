@@ -1,4 +1,4 @@
-const spinner = () => {
+const spinnerOne = () => {
 
   setTimeout(() => {
     process.stdout.write('\r|   ');
@@ -42,6 +42,6 @@ const spinner = () => {
 
 };
 
-spinner();
+spinnerOne();
 
-module.exports = spinner;
+module.exports = spinnerOne;
